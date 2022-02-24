@@ -1,0 +1,43 @@
+* {
+    /*width: 1600px;*/
+    }
+    .sonic {
+        width: 75px;
+        animation: drive;
+        animation-duration: 5s;
+        transform: translateX(10vw);
+    }
+    
+    @keyframes drive {
+        from{
+            transform: translate(-1000px, 1850px);
+        }
+    }
+    
+    ul {
+        margin-top: 100px;
+    }
+    
+    .blog-2 {
+        background-image: url(img/jungle.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 5px;
+        background-size: 100%;
+        object-fit: cover;
+        
+    }
+    
+    .jungle {
+        color: beige;
+        text-align: center;
+        font-size: 3rem;
+    }
+    
+    .werbe-text {
+        text-align: center;
+        font-size: 2rem;
+        color: beige;
+    }
+    
+    
